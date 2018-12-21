@@ -16,11 +16,43 @@
   </head>
 
   <body>
+        <style>
+      @import url('https://fonts.googleapis.com/css?family=Exo|Jura|Major+Mono+Display|Raleway');
+      body{
+        background-color: #181818;
+        color: #e71111;
+        font-family: 'Raleway', sans-serif;
+        font-family: 'Jura', sans-serif;
+        font-family: 'Major Mono Display', monospace;
+        font-family: 'Exo', sans-serif;
+      }
+      .headers{
+          margin: 1.5%;
+          padding: 2.3%;
+      }
+      th,td,table {
+          margin:3.567%;
+      }
+      th,td{
+          padding: 5px;
+          text-align:center;
+      }
+      @media(max-width: 768px){
+
+      }
+    </style>
     <div class="wrapper-masthead">
       <div class="container">
         <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-
+              <div class="headers" style="background-color: #222222;">
+                  <div class="row" style="float: left ; padding: 0.4%;margin: 1.4%;">
+                          <img src="https://avatars3.githubusercontent.com/u/45910674?s=460&v=4" width="150" height="150" alt="Profile pic" style="border:#e71111;border-style: dotted">
+                  </div>
+                  <h1><a style="font-family: 'Raleway';font-style: 'semi bold'">Rubymine's </a></h1>
+                  <a href="https://selly.gg/p/6d15e06a"><img src="https://img.shields.io/badge/Fan%20Sign-Rubymine-ff69b4.svg"></a>
+                  <br>
+                  <a href="https://hackforums.net/member.php?action=profile&uid=4076643"><img src="https://img.shields.io/badge/HF-Rubymine-purple.svg"></a>
+              </div>
           <div class="site-info">
             <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
             <p class="site-description">{{ site.description }}</p>
